@@ -25,7 +25,7 @@ async function callClaude(messages, system) {
   return d.choices?.[0]?.message?.content || 'Tidak ada respons.';
 }
 
-const AI_SYS = `Anda adalah tutor investasi saham Indonesia profesional dari ECONOVA by Septarius Education. Gaya: sabar, jelas, seperti mentor berpengalaman. Selalu contohkan dengan saham IDX nyata. Akhiri analisis saham dengan: ⚠️ Edukatif saja. Bukan saran investasi resmi. DYOR.`;
+const AI_SYS = `Anda adalah tutor investasi saham Indonesia profesional dari ECONOVA by Econova Advisory. Gaya: sabar, jelas, seperti mentor berpengalaman. Selalu contohkan dengan saham IDX nyata. Akhiri analisis saham dengan: ⚠️ Edukatif saja. Bukan saran investasi resmi. DYOR.`;
 
 // ─── 8 MODULES DATA ──────────────────────────────────────────────────────────
 const MODULES = [
@@ -1844,7 +1844,7 @@ export default function App() {
                     fontWeight: 700,
                   }}
                 >
-                  Septarius Education
+                  Econova Advisory
                 </div>
               </div>
             </div>
@@ -4143,7 +4143,7 @@ export default function App() {
                 ECONOVA
               </span>
               <span style={{ fontSize: 12, color: '#94a3b8' }}>
-                by Septarius Education
+                by Econova Advisory
               </span>
             </div>
             <div
