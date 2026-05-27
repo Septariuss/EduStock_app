@@ -25,7 +25,7 @@ async function callClaude(messages, system) {
   return d.choices?.[0]?.message?.content || 'Tidak ada respons.';
 }
 
-const AI_SYS = `Anda adalah tutor investasi saham Indonesia profesional dari EduStock by Septarius Education. Gaya: sabar, jelas, seperti mentor berpengalaman. Selalu contohkan dengan saham IDX nyata. Akhiri analisis saham dengan: ⚠️ Edukatif saja. Bukan saran investasi resmi. DYOR.`;
+const AI_SYS = `Anda adalah tutor investasi saham Indonesia profesional dari ECONOVA by Septarius Education. Gaya: sabar, jelas, seperti mentor berpengalaman. Selalu contohkan dengan saham IDX nyata. Akhiri analisis saham dengan: ⚠️ Edukatif saja. Bukan saran investasi resmi. DYOR.`;
 
 // ─── 8 MODULES DATA ──────────────────────────────────────────────────────────
 const MODULES = [
@@ -1635,7 +1635,7 @@ export default function App() {
     {
       role: 'assistant',
       content:
-        'Selamat datang di EduStock! 📚 Saya tutor AI Anda — siap membantu menjelaskan konsep investasi, analisis saham IDX, atau mendampingi Proyek Akhir Anda. Mulai dari mana?',
+        'Selamat datang di ECONOVA! 📚 Saya tutor AI Anda — siap membantu menjelaskan konsep investasi, analisis saham IDX, atau mendampingi Proyek Akhir Anda. Mulai dari mana?',
     },
   ]);
   const [chatIn, setChatIn] = useState('');
@@ -1833,7 +1833,7 @@ export default function App() {
                     lineHeight: 1.1,
                   }}
                 >
-                  EduStock
+                  ECONOVA
                 </div>
                 <div
                   style={{
@@ -2334,7 +2334,7 @@ export default function App() {
                         color: '#1a1a2e',
                       }}
                     >
-                      Fitur AI Tutor EduStock
+                      Fitur AI Tutor ECONOVA
                     </div>
                     <div style={{ fontSize: 12, color: '#94a3b8' }}>
                       Tanyakan apa saja — tersedia 24/7
@@ -3327,7 +3327,7 @@ export default function App() {
                           color: '#1a1a2e',
                         }}
                       >
-                        Tutor AI EduStock
+                        Tutor AI ECONOVA
                       </div>
                       <div style={{ fontSize: 11, color: '#94a3b8' }}>
                         Analisis Edukatif Saham IDX
@@ -3504,7 +3504,7 @@ export default function App() {
                           color: '#1a1a2e',
                         }}
                       >
-                        Tutor AI EduStock
+                        Tutor AI ECONOVA
                       </div>
                       <div style={{ fontSize: 11, color: '#94a3b8' }}>
                         Spesialis Edukasi Saham 
@@ -3856,7 +3856,7 @@ export default function App() {
                   <div
                     style={{ fontSize: 13, color: '#a5b4fc', marginBottom: 16 }}
                   >
-                    Founder & Chief Learning Officer — EduStock by Septarius
+                    Founder & Chief Learning Officer — ECONOVA by Septarius
                     Education
                   </div>
                   <div
@@ -3908,7 +3908,7 @@ export default function App() {
                       marginBottom: 12,
                     }}
                   >
-                    Tentang EduStock
+                    Tentang ECONOVA
                   </h3>
                   <p
                     style={{
@@ -3918,7 +3918,7 @@ export default function App() {
                       marginBottom: 12,
                     }}
                   >
-                    EduStock adalah platform edukasi investasi saham Indonesia
+                    ECONOVA adalah platform edukasi investasi saham Indonesia
                     yang dibangun dengan misi sederhana: membuat literasi
                     keuangan dan investasi saham bisa diakses oleh semua orang,
                     dari pemula hingga yang ingin memperdalam pengetahuan.
@@ -4102,7 +4102,7 @@ export default function App() {
                   }}
                 >
                   <div style={{ fontSize: 12, color: '#94a3b8' }}>
-                    ⚠️ Seluruh konten EduStock bersifat edukatif — bukan saran
+                    ⚠️ Seluruh konten ECONOVA bersifat edukatif — bukan saran
                     investasi resmi. Selalu lakukan riset mandiri (DYOR).
                   </div>
                 </div>
@@ -4140,7 +4140,7 @@ export default function App() {
                   color: '#1a1a2e',
                 }}
               >
-                EduStock
+                ECONOVA
               </span>
               <span style={{ fontSize: 12, color: '#94a3b8' }}>
                 by Septarius Education
